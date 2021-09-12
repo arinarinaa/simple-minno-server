@@ -8,14 +8,14 @@ define(['managerAPI'], function(Manager) {
 		API.addSettings('skip',true);
 		API.addSettings('skin','demo');
 		API.addSettings('DEBUG', {level: 'error'});
-		API.addSettings('logger',{type:'csv', url:'csv.php'});
     
 		API.addGlobal({
 		//YBYB: change when copying back to the correct folder
 		//  baseURL: '/implicit/user/education/weight/demo.weight.0003/images/'
-			baseURL: './study.weightBias/images/',
+			// baseURL: '/implicit/user/demo.us/demo.weight.0003/images/',
+			baseURL: './weight/images/',
 			isTouch:isTouch, 
-	    	posWords : API.shuffle([
+	    posWords : API.shuffle([
             'Love', 'Cheer', 'Friend', 'Pleasure', 
             'Adore', 'Cheerful', 'Friendship', 'Joyful', 
             'Smiling','Cherish', 'Excellent', 'Glad', 
@@ -152,7 +152,6 @@ define(['managerAPI'], function(Manager) {
 				]
 			},
 			{inherit: 'debriefing'},
-			{ type:'postCsv'},
 			{inherit: 'lastpage'}
 		]);
 

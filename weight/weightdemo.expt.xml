@@ -1,4 +1,4 @@
-<Study id="Demo.Weight.0003" datagroup="std" hotLinkRedirect="./study.weightBias/">
+<Study id="Demo.Weight.0003" datagroup="std" hotLinkRedirect="/implicit/">
 
 	<Definitions>
         <Task id="weightdemo" file="notouch.js">/common/all/js/quest/0.0/dist/manager.jsp</Task>
