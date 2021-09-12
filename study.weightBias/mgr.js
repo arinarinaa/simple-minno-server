@@ -13,7 +13,7 @@ define(['managerAPI'], function(Manager) {
 		API.addGlobal({
 		//YBYB: change when copying back to the correct folder
 		//  baseURL: '/implicit/user/education/weight/demo.weight.0003/images/'
-			baseURL: './study.weightBias/',
+			baseURL: './study.weightBias/images/',
 			isTouch:isTouch, 
 	    	posWords : API.shuffle([
             'Love', 'Cheer', 'Friend', 'Pleasure', 
